@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group1">
+        <item android:id="@+id/settingsMenuItem" android:title="@string/settingsMenu"/>
+        <item android:id="@+id/helpMenuItem" android:title="@string/helpMenu">
+            <menu>
+                <item android:id="@+id/subMenuItem1" android:title="Help1"/>
+                <item android:id="@+id/subMenuItem2" android:title="Help2"/>
+            </menu>
+        </item>
+    </group>
+</menu>

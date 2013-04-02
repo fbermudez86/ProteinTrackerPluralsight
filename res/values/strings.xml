@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProteinTracker</string>
+    <string name="copyTextBtn">Copy Text</string>
+    <string name="helpBtn">Help</string>
+    <string name="goal">Goal:</string>
+    <string name="needed">Needed:</string>
+    <string name="totalday">Total for day:</string>
+    <string name="ProteinConsumed">Protein consumed:</string>
+    <string name="enter">Enter</string>
+    <string name="reset">Reset</string>
+    <string name="proteinperday">Protein per day</string>
+    <string name="ppdMessage">Enter grams of protein</string>
+    <string name="gramsPerDay">Grams per day</string>
+    <string name="preferences">Preferences</string>
+    <string name="helpMenu">Help</string>
+    <string name="settingsMenu">Settings</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="resetDialogMessage">Are you sure you want to reset the protein count?</string>
+</resources>

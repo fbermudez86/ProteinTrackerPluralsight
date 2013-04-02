@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <LinearLayout android:id="@+id/linearLayout1"
+                  android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_weight="1" android:layout_width="fill_parent"
+                  android:id="@+id/textView1" android:text="@string/ProteinConsumed"
+                  android:layout_height="wrap_content" android:textSize="16sp"
+                  android:gravity="right" android:layout_marginRight="10dip" />
+        <EditText android:layout_weight="1" android:layout_width="fill_parent"
+                  android:text="" android:id="@+id/editText1" android:layout_height="wrap_content"
+                  android:layout_marginTop="10dip"></EditText>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout2"
+                  android:layout_width="fill_parent" android:layout_height="wrap_content"
+                  android:gravity="right">
+        <TextView android:layout_width="wrap_content" android:id="@+id/textView1"
+                  android:text="" android:layout_height="wrap_content"
+                  android:textSize="16sp" />
+        <Button android:text="@string/enter" android:id="@+id/enterBtn"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout3"
+                  android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_weight="1" android:layout_width="fill_parent"
+                  android:layout_marginRight="10dip" android:gravity="right"
+                  android:id="@+id/TextView03" android:text="@string/totalday"
+                  android:textSize="16sp" android:layout_height="wrap_content"></TextView>
+        <TextView android:layout_weight="1" android:layout_width="fill_parent"
+                  android:id="@+id/TextView01" android:text="100g" android:textSize="20sp"
+                  android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout4"
+                  android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_weight="1" android:layout_width="fill_parent"
+                  android:layout_marginRight="10dip" android:gravity="right"
+                  android:id="@+id/TextView04" android:text="@string/goal" android:textSize="16sp"
+                  android:layout_height="wrap_content"></TextView>
+        <TextView android:layout_weight="1" android:layout_width="fill_parent"
+                  android:id="@+id/TextView02" android:text="175g" android:textSize="20sp"
+                  android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout5"
+                  android:layout_width="fill_parent" android:layout_height="5dip"
+                  android:background="@android:color/white" />
+    <LinearLayout android:id="@+id/LinearLayout01"
+                  android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_weight="1" android:layout_width="fill_parent"
+                  android:layout_marginRight="10dip" android:gravity="right"
+                  android:id="@+id/TextView06" android:text="@string/needed" android:textSize="16sp"
+                  android:layout_height="wrap_content"></TextView>
+        <TextView android:layout_weight="1" android:layout_width="fill_parent"
+                  android:id="@+id/TextView05" android:text="75g" android:textSize="20sp"
+                  android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent"
+                  android:gravity="bottom" android:id="@+id/linearLayout6">
+        <Button android:text="@string/reset" android:id="@+id/resetButton" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+</LinearLayout>
